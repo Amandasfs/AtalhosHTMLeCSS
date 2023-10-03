@@ -1,0 +1,51 @@
+:root{
+    --backgroundBar: #333;
+    --font: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.toolbar {
+    background-color: var(--backgroundBar);
+    color: var(--font);
+    padding: 10px 0;
+    height: 2rem;
+
+}
+
+.toolbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.toolbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.toolbar a {
+    text-decoration: none;
+    color: var(--font);
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.content{
+    height: 52.6em;
+}
+.footer {
+    background-color: var(--backgroundBar);
+    color: var(--font);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.social-icons a {
+    color: var(--font);
+    text-decoration: none;
+    margin: 0 10px;
+}

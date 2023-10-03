@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@400;500&family=Comfortaa:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Croissant+One&family=Dancing+Script:wght@400;500;600&family=Fuggles&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Lobster&family=Londrina+Solid:wght@100;300;400&family=Merienda:wght@300;400;500&family=Monoton&family=Montserrat:ital,wght@0,100;0,200;1,100&family=Open+Sans:ital,wght@0,300;1,300&family=Pacifico&family=Pixelify+Sans:wght@400;500&family=Rajdhani:wght@300;400;500&family=Raleway:ital,wght@0,100;0,300;1,100&family=Reenie+Beanie&family=Rock+Salt&family=Satisfy&family=Shadows+Into+Light&family=Tangerine:wght@400;700&family=Varela+Round&family=Young+Serif&family=Zen+Loop:ital@0;1&family=Zilla+Slab:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Creepster&family=Cute+Font&family=Gloria+Hallelujah&family=Handjet:wght@200;300&family=Handlee&family=Josefin+Slab:ital,wght@0,100;0,200;1,100;1,400&family=Luckiest+Guy&family=Macondo&family=Mate+SC&family=PT+Mono&family=Patrick+Hand&family=Poiret+One&family=Press+Start+2P&family=Rubik+Mono+One&family=Salsa&family=Sedgwick+Ave+Display&family=Titan+One&display=swap');
+
+:root{
+    --background: #f6bbc3;
+    --title: #fbf3f4;
+    --table: #cfdbca;
+    --line: #bb5163;
+    --botao: #fef2f6;
+    --backgroundTable: #c07e84;
+    --numeros: #cbd0c9;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--background);
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.star{
+    height: 3rem;
+}
+.cat{
+    height: 8rem;
+}
+.buttons{
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+h1{
+    color: var(--title);
+    font-family: 'Cute Font', cursive;
+    font-size: 6rem;
+}
+table {
+    margin-left: 5rem;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 3px solid var(--line);
+    padding: 10px;
+    text-align: left;
+    font-size: 1.3rem;
+}
+th {
+    background-color: var(--table);
+}
+button{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 2rem;
+    border: 1px transparent var(--botao);
+    background-color: var(--botao);
+}
+a{
+    text-decoration: none;
+    font-family: 'Cute Font', cursive;
+    color: var(--numeros);
+    font-size: 2rem;
+}
+button:hover{
+    border: 1px transparent var(--backgroundTable);
+    background-color: var(--backgroundTable);
+    height: 4rem;
+    width: 4rem;
+    transition: .2s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+}
+a:hover{
+    font-size: 3rem;
+    transition: .1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
